@@ -4,7 +4,7 @@ Impulse Tracker, Scream Tracker and other mod files plus
 SID, MP3, WAV, OGG, APE, FLAC, MIDI, AdLib ROL-Files (OPL), ...
 See the supported file types for a complete list.
 
-This is the original JavaMod project from Daniel "Quippy" Becker.
+This is RetroPipes' fork of the original JavaMod project from Daniel "Quippy" Becker.
 
 Download the JAR or the source code and compile for yourself. A double click
 on the jar-file should start it. If not, to manually start the player in GUI
