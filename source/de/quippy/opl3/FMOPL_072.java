@@ -52,15 +52,15 @@ public class FMOPL_072
 //	private static final int BUILD_YM3526 = 1;
 //	private static final int BUILD_Y8950  = 0;
 	
-	interface OPL_IRQHANDLER
+    public interface OPL_IRQHANDLER
 	{
 		void invoke(int irq);
 	}
-	interface OPL_TIMERHANDLER
+    public interface OPL_TIMERHANDLER
 	{
 		void invoke(int timer, double period);
 	}
-	interface OPL_UPDATEHANDLER
+    public interface OPL_UPDATEHANDLER
 	{
 		void invoke(int min_interval_us);
 	}

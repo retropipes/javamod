@@ -55,13 +55,13 @@ public class MidiMacros
 	private String [] midiGlobal;
 	private String [] midiSFXExt;
 	private String [] midiZXXExt;
-	enum ParameteredMacroTypes
+	public enum ParameteredMacroTypes
 	{
 		SFxUnused, SFxCutoff, SFxReso, SFxFltMode, SFxDryWet, SFxCC, 
 		SFxPlugParam, SFxChannelAT, SFxPolyAT, SFxPitch, SFxProgChange, 
 		SFxCustom,
 	}
-	enum FixedMacroTypes
+	public enum FixedMacroTypes
 	{
         ZxxUnused, ZxxReso4Bit, ZxxReso7Bit, ZxxCutoff, ZxxFltMode, 
         ZxxResoFltMode, ZxxChannelAT, ZxxPolyAT, ZxxPitch, ZxxProgChange, 

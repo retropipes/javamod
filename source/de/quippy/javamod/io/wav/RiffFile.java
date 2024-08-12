@@ -36,7 +36,7 @@ import java.io.RandomAccessFile;
  */
 public class RiffFile
 {
-	protected static class RiffChunkHeader
+	public static class RiffChunkHeader
 	{
 		public int ckID = 0; // Four-character chunk ID
 		public int ckSize = 0; // Length of data in chunk
