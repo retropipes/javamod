@@ -159,7 +159,7 @@ public class EnvelopePanel extends JPanel
 		}
 		return isSustainEnabled;
 	}
-	private JComboBox getZoomSelector()
+	private JComboBox<String> getZoomSelector()
 	{
 		if (zoomSelector==null)
 		{

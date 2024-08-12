@@ -268,7 +268,7 @@ public class ModSampleDialog extends JDialog
 		}
 		return selectSample;
 	}
-	private JComboBox getZoomSelector()
+	private JComboBox<String> getZoomSelector()
 	{
 		if (zoomSelector==null)
 		{
@@ -290,7 +290,7 @@ public class ModSampleDialog extends JDialog
 		
 		return zoomSelector;
 	}
-	private JComboBox getNoteSelector()
+	private JComboBox<String> getNoteSelector()
 	{
 		if (noteSelector==null)
 		{
